@@ -323,10 +323,10 @@
     <p><strong>摘要：</strong> 第一次提交扩增子测序原始数据到NCBI的流程。</p>
 <span id="more"></span>
 
-<h1 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h1><p>冲浪区的海水样本，过滤到0.1微米的滤膜上后提取了DNA。随后做了PCR，构建文库，并执行了Nanopore full-length 16s rRNA gene sequencing.</p>
+<h1 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h1><p>冲浪区的海水样本，过滤到0.1微米的滤膜上后提取了DNA。随后做了PCR，构建文库，并执行了Nanopore full-length 16S rRNA gene sequencing.</p>
 <h1 id="上传到NCBI"><a href="#上传到NCBI" class="headerlink" title="上传到NCBI"></a>上传到NCBI</h1><p>上传下机的raw fast5 data.</p>
 <h2 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h2><ul>
-<li>登录NCBI（<a target="_blank" rel="noopener" href="https://submit.ncbi.nlm.nih.gov/%EF%BC%89-%3E">https://submit.ncbi.nlm.nih.gov/）-&gt;</a> login</li>
+<li>登录NCBI（ <a target="_blank" rel="noopener" href="https://submit.ncbi.nlm.nih.gov/">https://submit.ncbi.nlm.nih.gov/</a> ）-&gt; login</li>
 </ul>
 <h2 id="提交BioProject信息"><a href="#提交BioProject信息" class="headerlink" title="提交BioProject信息"></a>提交BioProject信息</h2><ul>
 <li>点击”My submissions” -&gt; 点击”BioProject” -&gt; 点击”New submission”</li>
@@ -340,7 +340,7 @@
 <li>点击”My submissions” -&gt; 点击”Sequence Read Archive (SRA)” -&gt; 点击”New submission”</li>
 <li>1.Submitter -&gt;  2.General info -&gt; 3.SRA METADATA: upload metadata file -&gt; 4.Files: upload via ftp （可以将所有文件打包到文件夹下面，然后右键该文件夹选择Open Git Bash here，然后在git中输入<code>tar -czf 文件夹名.tar.gz 文件夹名</code>）,传输完之后选择那个文件夹，下一步。-&gt; 5.submit.</li>
 </ul>
-<p>PS, 其实这样上传是没有问题的，然而我的fast5文件显示error，因为没有basecalled information。我很疑惑，X上搜了一下，好像是新版本的Guppy确实移除了这个信息，咨询相关的同事Pascal之后，决定将数据上传到Marine Data Archive (<a target="_blank" rel="noopener" href="https://mda.vliz.be/introduction.php)%E3%80%82">https://mda.vliz.be/introduction.php)。</a></p>
+<p>PS, 其实这样上传是没有问题的，然而我的fast5文件显示error，因为没有basecalled information。我很疑惑，X上搜了一下，好像是新版本的Guppy确实移除了这个信息，咨询相关的同事Pascal之后，决定将数据上传到Marine Data Archive ( <a target="_blank" rel="noopener" href="https://mda.vliz.be/introduction.php">https://mda.vliz.be/introduction.php</a> )。</p>
 
   </div>
   <div id="gitalk-container"></div>
